@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  scrollbar-width: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+body {
+  background-color: rgba(237, 218, 200, 0.26);
+  overflow-y: scroll;
+}
+
+header {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  background: rgba(101, 93, 86, 1);
+
+  div {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  svg {
+    height: 200px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    z-index: 2;
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+
+h2 {
+  font-family: Druk Cyr;
+  font-weight: 500;
+  font-size: 80px;
+  color: rgba(190, 178, 166, 1);
+  text-align: center;
+}
+
+h3 {
+  font-family: Druk Cyr;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(101, 93, 86, 1);
+}
+
+h4 {
+  font-family: "Druk Cyr";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 66px;
+  text-transform: uppercase;
+  color: #fbf6f1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  text-align: center;
+}
+
+h5 {
+  font-family: "VK Sans Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: #fbf6f1;
+}
+
+h6 {
+  font-family: "Druk Cyr";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 57px;
+  text-transform: uppercase;
+  color: #655d56;
+}
+
+a {
+  font-family: "VK Sans Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+input {
+  width: 227px;
+  height: 36px;
+  background: #fbf6f1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: "VK Sans Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: none;
+  color: rgba(0, 0, 0, 0.3);
+  padding-left: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+@font-face {
+  font-family: "VK Sans Display";
+  src: url("/public/fonts/VKSansDisplay-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "VK Sans Display";
+  src: url("/public/fonts/VKSansDisplay-Medium.ttf");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "VK Sans Display";
+  src: url("/public/fonts/VKSansDisplay-DemiBold.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "VK Sans Display";
+  src: url("/public/fonts/VKSansDisplay-Bold.ttf");
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Druk Cyr";
+  src: url("/public/fonts/DrukCyr-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
