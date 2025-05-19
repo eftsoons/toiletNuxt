@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  scrollbar-width: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#__nuxt {
+  overflow-x: hidden;
+  position: relative;
+  background-color: rgb(240, 240, 240);
+}
+
+body {
+  background-color: rgba(237, 218, 200, 1);
+  overflow-y: scroll;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+h2 {
+  font-family: Druk Cyr;
+  font-weight: 500;
+  font-size: 80px;
+  color: rgba(190, 178, 166, 1);
+  text-align: center;
+  overflow-wrap: break-word;
+  height: 100%;
+  width: 99%;
+}
+
+h3 {
+  font-family: Druk Cyr;
+  font-size: 30px;
+  font-weight: 500;
+  color: rgba(101, 93, 86, 1);
+  white-space: nowrap;
+}
+
+h4 {
+  font-family: "Druk Cyr";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 66px;
+  text-transform: uppercase;
+  color: #fbf6f1;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+h5 {
+  font-family: "VK Sans Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+
+  color: #fbf6f1;
+}
+
+h6 {
+  font-family: "Druk Cyr";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 57px;
+  text-transform: uppercase;
+  color: #655d56;
+}
+
+a {
+  font-family: "VK Sans Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.inputtext {
+  width: 227px;
+  height: 36px;
+  background: #fbf6f1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: "VK Sans Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: none;
+  color: rgba(0, 0, 0, 0.3);
+  padding-left: 10px;
+}
+
+.inputtext:focus {
+  outline: none;
+  color: #655d56;
+  font-weight: 600;
+}
+
+@media (min-width: 580px) {
+  #__nuxt {
+    width: 580px;
+  }
+
+  .gallery {
+    width: 35% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .scheme {
+    width: 55% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+  }
+
+  .call {
+    width: 560px !important;
+    display: flex !important;
+    justify-content: end !important;
+    right: auto !important;
+  }
+}
+
+@media (min-width: 770px) {
+  .callthanks {
+    width: 20% !important;
+  }
+}
+
+@media (min-width: 1100px) {
+  .gallery {
+    width: 30% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .scheme {
+    width: 30% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .action {
+    font-size: 20px !important;
+  }
+}
+
+@font-face {
+  font-family: "VK Sans Display";
+  src: url("/public/fonts/VKSansDisplay-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "VK Sans Display";
+  src: url("/public/fonts/VKSansDisplay-Medium.ttf");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "VK Sans Display";
+  src: url("/public/fonts/VKSansDisplay-DemiBold.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "VK Sans Display";
+  src: url("/public/fonts/VKSansDisplay-Bold.ttf");
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Druk Cyr";
+  src: url("/public/fonts/DrukCyr-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}

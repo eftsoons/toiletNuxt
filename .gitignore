@@ -1,0 +1,30 @@
+# Nuxt dev/build outputs
+fronted/.output/
+fronted/.data/
+fronted/.nuxt/
+fronted/.nitro/
+fronted/.cache/
+fronted/dist/
+
+# Node dependencies
+fronted/node_modules/
+
+# Logs
+fronted/logs
+fronted/*.log
+
+# Misc
+fronted/.DS_Store/
+fronted/.fleet/
+fronted/.idea/
+
+# Local env files
+fronted/.env
+fronted/.env.*
+fronted/!.env.example
+
+backend/.env
+backend/node_modules
+originalphoto/
+photo/
+
